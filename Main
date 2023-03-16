@@ -1,0 +1,229 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{tocloft}
+\usepackage{titlesec}
+\usepackage{titletoc}
+\usepackage{amsmath}
+\usepackage{siunitx}
+\usepackage{caption}
+\usepackage{subcaption}
+
+
+\doublespacing
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+
+\titleformat{\section}{\normalfont\fontsize{13}{15}\bfseries}{\thesection.}{0.5em}{}
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip}
+\titleformat{\subsection}{\normalfont\fontsize{12}{15}\bfseries}{\thesubsection.}{0.5em}{}
+\titlespacing*{\subsection}{0pt}{\baselineskip}{\baselineskip}
+
+\titlecontents{section}[0em]{\vskip 0.1ex\normalfont\fontsize{12}{15}\bfseries}{\contentslabel{2.3em}}{}{\hfill\contentspage}
+\titlecontents{subsection}[2.3em]{\normalfont\fontsize{12}{15}}{\contentslabel{2.3em}}{}{\dotfill\contentspage}
+
+\captionsetup[figure]{font=small}
+
+\title{Water Bottle Rocket SECME Competition Technical Report}
+\author{Your Name\\Your Institution}
+\date{Date}
+\geometry{margin= 1.0 in}
+
+
+\begin{document}
+
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+        
+        \huge{\textbf{Secme Engineering Design Competition Division: Water Bottle Rocket Technical report}}
+        
+        \vspace{0.5cm}
+        \large{Competition Division: Middle and High school division(9-12)}
+
+        \large{team name?}
+
+        \vspace{0.25 cm}
+        \large{Maadhav Deekshitha, Gregory Roudenko, Harish Sriganesh}
+
+        \large{Broward School District}
+                
+        \large{Cypress Bay Highschool,Weston,Florida,33332}
+        
+        
+        \large{Angela Ashley email: angela.ashley@browardschools.com}
+        
+        \vspace{1cm}
+                
+        
+        \large{3/17/23}
+        
+    \end{center}
+\end{titlepage}
+
+\pagenumbering{roman}
+\tableofcontents
+
+\clearpage
+\pagenumbering{arabic}
+
+
+\section{Abstract}
+Our project aimed to design and experiment with a water bottle rocket (WBR), with the objective of creating a stable and high-performance rocket design. We began by researching the fundamentals of rocket design and aerodynamics, which we used to develop a preliminary WBR design. We then conducted simulations to test and refine our design, optimizing the fin shape and location, and reducing drag to improve stability.
+
+After several rounds of simulations, we constructed and tested multiple prototypes to evaluate their flight performance. Using data collected from these tests, we refined our design further, resulting in a final WBR design that demonstrated significant improvements in both stability and flight distance.
+
+Our conclusion is that the iterative testing and design process were critical to the success of our final WBR design. Future projects should explore the use of lighter materials and alternative pressure creation methods to further improve the WBR's performance. Additionally, incorporating electronic sensors could provide more precise data during flight, and exploring the impact of different nozzle shapes and sizes could enhance the rocket's thrust and stability.
+
+
+\section{Introduction}
+
+Our team aimed to create a stable and high-performance water bottle rocket that could travel the farthest distance while adhering to the specific design requirements. Our hypothesis was that optimizing the WBR's aerodynamic design would enable us to achieve our objective. We followed a design process, adhered to the competition requirements and prioritized safety throughout. We believed that these efforts would enable us to create a successful WBR design and compete effectively in the competition.
+
+\section{Design}
+When designing the water bottle rocket (WBR), we focused on maximizing its flight distance and stability. We started with research on the design principles of rockets and the factors affecting their flight. We also experimented with different nozzle shapes and sizes, fins shapes and positions, and center of gravity locations using a simulation software. After analyzing the simulation data, we selected the optimal design and constructed the rocket.
+
+Experimental Process:
+We tested our initial WBR design and made adjustments based on the results. We used data tables to record the launch angle, air pressure, and flight distance. From these tables, we concluded that our initial design had a center of gravity that was too high, causing the rocket to become unstable during flight. We made adjustments to the fin shape and location to lower the center of gravity, which improved stability and increased the flight distance.
+
+\section{Construction Procedure}
+
+Our water bottle rocket design was based on a traditional model, with a cone-shaped nose, cylindrical body, and fins at the base. The rocket was made of a 2-liter plastic soda bottle,The cone-shaped nose was made of cardboard, and the fins were made of construction paper. We used hot glue to attach the fins to the body of the rocket and to reinforce the nose cone as well as tape to serve as an adhesive.
+
+\section{Operation}
+
+To operate the WBR, we first added water to the bottle to create steam pressure. We then pressurized the rocket using a bike pump until the pressure was sufficient to launch the rocket. Once the rocket was pressurized, we launched it by removing the launch tube and observing its flight. During the flight, we observed the trajectory and measured the flight distance using a measuring tape. After the flight, we recorded the data in the data tables for further analysis.
+
+\section{Calculation Exercises}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=80mm,scale=0.5]{ew.pdf}
+\caption{Side view of rocket}
+\label{fig:technical_sketch}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=80mm,scale=0.5]{ewwe.pdf}
+\caption{Side view of rocket}
+\label{fig:technical_sketch}
+\end{figure}
+
+\section{Physics Concepts}
+
+We used several key physics concepts in our design process of our bottle rocket as they are important to understand. 
+These include:
+
+\subsection{Newton's Third Law of Motion}
+
+Newton's third law of motion states that for every action, there is an equal and opposite reaction. In the case of a water bottle rocket, the action is the expulsion of water and air from the rocket, and the reaction is the thrust force generated that propels the rocket upward.
+
+\subsection{Projectile Motion}
+
+Projectile motion refers to the motion of an object that is thrown or launched into the air. In the case of a water bottle rocket, the rocket follows a parabolic trajectory due to the force of gravity and air resistance.
+
+\subsection{Center of Mass and Stability}
+
+The center of mass of an object is the point at which the mass of the object is evenly distributed. In our water bottle rocket, we emphasised the importance of center of mass to ensure that the center of mass is located near the front of the rocket to ensure stability during flight.
+
+\subsection{Drag and Air Resistance}
+
+Air resistance, or drag, is a force that opposes the motion of an object through the air. In the case of a water bottle rocket, drag can significantly reduce the height and distance traveled by the rocket. So we designed the rocket to minimize drag by using streamlined shapes and reducing surface this greatly improved our rockets performance.
+
+\subsection{Bernoulli's Principle}
+
+Bernoulli's principle states that an increase in the speed of a fluid occurs simultaneously with a decrease in the pressure or a decrease in the fluids potential energy. This can be seen at work with our water rocket as simultaneously when the rocket is released the pressure inside the body decreases as the speed increases and launches the rocket upwards. 
+
+\subsection{Momentum}
+
+Momentum is a quantity that describes the motion of an object, and is defined as the product of an object's mass and velocity. In the case of a water bottle rocket, the momentum of the expelled water and air is transferred to the rocket as a thrust force, propelling it upward.
+
+\subsection{Ideal Gas Law}
+Using the Ideal Gas law, we can find a relationship between temperature and pressure:
+
+\begin{equation}
+PV = N \Re T.
+\end{equation}
+In this equation $P$ represents pressure, $V$ the volume, $N$ the number of moles, $\Re$ the universal gas constant, and $T$ the absolute temperature
+
+
+\section{Conclusion}
+
+Our final WBR design underwent several iterations and experiments to optimize its performance. By analyzing the simulation data and testing the design in real-world scenarios, we were able to identify the key factors that affect the rocket's stability and flight distance. Through these experiments, we made critical design adjustments, such as the fin shape and location, which improved the rocket's aerodynamic properties and reduced drag.
+
+Looking towards future improvements, we can explore the use of lighter materials to decrease the rocket's weight and enhance its maneuverability.
+
+In terms of a future hypothesis, we could explore the impact of different nozzle shapes and sizes on the WBR's flight performance. By testing various nozzle configurations, we could investigate the impact of thrust and stability during flight.
+
+\section{Apendix}
+We created technical sketches and used CAD (Computer-aided design) to help us visualize and design our water bottle rocket. Here's an example of our sketches and cad:
+
+\begin{figure}[H]
+\begin{minipage}{.5\textwidth}
+\centering
+\includegraphics[width=80mm,scale=0.5]{mwoq.png}
+\caption{Side view of rocket}
+\label{fig:technical_sketch}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+\centering
+\includegraphics[width=50mm,scale=0.5]{mow.png}
+\caption{Front view of rocket}
+\label{fig:Computer-aided design}
+\end{minipage}%
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=70mm,scale=.5]{we.png}
+\caption{Top view of rocket}
+\label{fig:Computer-aided design}
+\end{figure}
+
+\begin{table}[h]
+\centering
+\renewcommand{\arraystretch}{2}
+\caption{Material List and Cost}
+\label{tab:material-list}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Material} & \textbf{Cost (USD)} \\
+\hline
+2-liter plastic bottle & 1.33 \\
+\hline
+Duct tape & 0.20 \\
+\hline
+Construction paper & Recycled \\
+\hline
+Cardboard & Recycled \\
+\hline
+Total Cost & 1.53 \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering
+\renewcommand{\arraystretch}{2}
+\caption{Results of Rocket Experiments}
+\label{tab:rocket-experiments}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Experiment} & \textbf{Fins Size} & \textbf{Nose Cone Size} & \textbf{Flight Distance (ft)} & \textbf{Flight Time (s)} \\
+\hline
+1 & Small & Small & 50 & 4 \\
+\hline
+2 & Small & Large & 60 & 5 \\
+\hline
+3 & Large & Small & 75 & 6 \\
+\hline
+4 & Large & Large & 85 & 7 \\
+\hline
+\end{tabular}
+\end{table}
+
+\end{document}
